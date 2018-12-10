@@ -5,59 +5,190 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Tammy and April</title>
+    <!-- Tammy + April CSS -->
+    <link rel="stylesheet" href="css/tammy-april.css">
+
+    <title>Tammy + April</title>
   </head>
   <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Tammy and April</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Tammy + April</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#wedding-venue">Wedding Venue</a>
+              <a class="nav-link js-scroll-trigger" href="#friday">Friday Dinner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#wedding">Saturday Ceremony</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#hotel">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#music">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#registries">Registries</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
+    <header class="jumbotron">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>Tammy and April</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Some text about Tammy and April</p>
+          <div class="col-md-12 text-center">
+            <h1>Tammy + April</h1>
+            <p>July 20, 2019<br/>
+            Asheville, NC</p>
+            <p class="down-arrow">&#x21E3;</p>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="wedding-venue">
+    <!-- Friday Dinner -->
+    <section id="friday">
       <div class="container">
-        <div class="row text-center">
-          <h2 class="section-heading">Wedding Venue</h2>
-        </div>
         <div class="row">
-          <div class="col-8">
-            <p>Haiku I Do</p>
+          <div class="col text-center">
+            <h2 class="section-heading">Friday Dinner</h2>
           </div>
-          <div class="col-4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d658.4917160363609!2d-82.5368739988928!3d35.565163033050744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d74bf6caff02a91!2sHaiku+I+Do!5e1!3m2!1sen!2sus!4v1544307134836" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <p>TBD</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Wedding Day -->
+    <section id="wedding">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="section-heading">Saturday Ceremony</h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 text-center">
+            <div itemscope itemtype="http://schema.org/Event">
+              <h3><span itemprop="name">Tammy + April Wedding</span></h3>
+              <meta itemprop="startDate" content="2019-7-20">
+              <p>Saturday, July 20, 2019</p>
+              <p>Evening (Time TBD)</p>
+              <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <h3>
+                  <a itemprop="url" href="https://www.haikuido.com" target="_blank">
+                  <img class="haikuido-logo" src="https://static1.squarespace.com/static/59062a0c59cc68420fd59032/t/591ded493a04114c3ae6e35b/1542070968354/?format=1500w" width="100%" height="auto" alt="Haiku I Do logo" title="Haiku I Do" />
+                  </a>
+                </h3>
+                <p>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">26 Sweeten Creek Road</span><br/>
+                    <span itemprop="addressLocality">Asheville</span>,
+                    <span itemprop="addressRegion">NC</span> <span itemprop="postalCode">28803</span>
+                </div>
+                <span itemprop="telephone">(828) 412-3939</span>
+              </p>
+              </div>
+              <p>Ceremony followed by dinner reception.</p>
+            </div>
+          </div>
+          <!-- Google Map -->
+          <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d658.4917160363609!2d-82.5368739988928!3d35.565163033050744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d74bf6caff02a91!2sHaiku+I+Do!5e1!3m2!1sen!2sus!4v1544307134836" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hotel Information -->
+    <section id="hotel">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="section-heading">Hotel</h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <p>TBD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music -->
+    <section id="music">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="section-heading">Music</h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 text-center">
+            <p>Enjoy this playlist of our favorite wedding songs!</p>
+            <p>As we get closer to the wedding day, we will share a party-mix playlist where guests can add songs to play during the reception.</p>
+          </div>
+          <div class="col-md-6">
+            <iframe src="https://open.spotify.com/embed/user/5foxkeng74i7pir8hm8ewzzfe/playlist/3sBuOZ6R54GttfkjcwbN0E" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registries -->
+    <section id="registries">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="section-heading">Registries</h2>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <p>TBD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <p><span class="footer-brand">Tammy + April</span><br/>
+            Saturday, July 20, 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="color-palette text-center">
+      <span style="color: #66CCCC;">&#x2588;</span>
+      <span style="color: #339999;">&#x2588;</span>
+      <span style="color: #336666;">&#x2588;</span>
+      <span style="color: #CC9999;">&#x2588;</span>
+      <span style="color: #993366;">&#x2588;</span>
+      <span style="color: #330000;">&#x2588;</span>
+      <span style="color: #999999;">&#x2588;</span>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

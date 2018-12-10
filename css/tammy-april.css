@@ -1,0 +1,97 @@
+/* Color Palette */
+/* Light Teal #66CCCC */
+/* Dark Teal #339999 */
+/* Deep Teal #336666 */
+/* Light Rose #CC9999 */
+/* Dark Rose #993366 */
+/* Deep Rose #330000 */
+/* Light Grey #999999 */
+body {
+  color: #330000;
+  background-color: #D0D5D2;
+}
+.navbar {
+  background-color: #330000;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-toggler {
+   color: #FFFFFF !important;
+ }
+.navbar-light .navbar-toggler {
+  border-color: #FFFFFF !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#FFFFFF' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.jumbotron {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #66CCCC;
+}
+.jumbotron .container {
+  position: absolute;
+  bottom: 5px;
+  max-width: 100%;
+}
+.down-arrow {
+  font-size: 2rem;
+}
+section {
+  min-height: 400px;
+  padding: 56px;
+}
+.section-heading {
+  font-size: 3rem;
+}
+[class^="col-"] {
+  padding: 40px;
+}
+footer [class^="col-"] {
+  padding: 20px;
+}
+h1, h2, h3, .navbar-brand, .footer-brand {
+  font-family: 'Emilys Candy', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+#friday {
+  background-color: #CC9999;
+  background-size: cover;
+}
+#wedding {
+  background-color: #993366;
+  background-image: url('../media/images/haikuido_edited.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+}
+#hotel {
+  background-color: #66CCCC;
+  background-size: cover;
+}
+#music {
+  background-color: #336666;
+  background-image: url('../media/images/analogue-antique-audio-290657_edited.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+}
+#registries {
+  background-color: #CC9999;
+  background-size: cover;
+}
+.haikuido-logo {
+  max-width: 200px;
+}
+footer {
+  background-color: #330000;
+  color: #FFFFFF;
+}
+.footer-brand {
+  font-size: 1.25rem;
+}
+.color-palette {
+  background-color: #FFFFFF;
+  display: none;
+}
