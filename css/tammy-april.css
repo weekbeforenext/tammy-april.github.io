@@ -28,8 +28,7 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
-  background-color: #66CCCC;
-  background: url('../media/images/hero_background.png') no-repeat center center;
+  background: #66CCCC url('../media/images/hero_background.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,8 +69,7 @@ h1 {
   background-size: cover;
 }
 #wedding {
-  background-color: #993366;
-  background: url('../media/images/saturday_wedding_background.jpg') no-repeat center center;
+  background: #993366 url('../media/images/saturday_wedding_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,8 +84,7 @@ h1 {
   background-size: cover;
 }
 #music {
-  background-color: #336666;
-  background: url('../media/images/music_background.jpg') no-repeat center center;
+  background: #336666 url('../media/images/music_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
