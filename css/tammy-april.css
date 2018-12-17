@@ -29,6 +29,11 @@ body {
   padding: 0;
   margin: 0;
   background-color: #66CCCC;
+  background: url('../media/images/hero_background.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .jumbotron .container {
   position: absolute;
@@ -59,26 +64,41 @@ h1 {
 }
 #friday {
   background-color: #CC9999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 #wedding {
   background-color: #993366;
-  background-image: url('../media/images/saturday_wedding_background.jpg');
+  background: url('../media/images/saturday_wedding_background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   color: #FFFFFF;
 }
 #hotel {
   background-color: #66CCCC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 #music {
   background-color: #336666;
-  background-image: url('../media/images/music_background.jpg');
+  background: url('../media/images/music_background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   color: #FFFFFF;
 }
 #registries {
   background-color: #CC9999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .haikuido-logo {
