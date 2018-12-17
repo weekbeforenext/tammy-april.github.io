@@ -1,0 +1,5 @@
+# Don't track PHPStorm
+.idea/*
+
+# Don't track Mac files
+*.DS_Store
