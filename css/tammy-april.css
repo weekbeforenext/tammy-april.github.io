@@ -63,7 +63,7 @@ h1 {
 }
 #wedding {
   background-color: #993366;
-  background-image: url('../media/images/haikuido_edited.jpg');
+  background-image: url('../media/images/saturday_wedding_background.jpg');
   background-size: cover;
   color: #FFFFFF;
 }
@@ -73,7 +73,7 @@ h1 {
 }
 #music {
   background-color: #336666;
-  background-image: url('../media/images/analogue-antique-audio-290657_edited.jpg');
+  background-image: url('../media/images/music_background.jpg');
   background-size: cover;
   color: #FFFFFF;
 }
@@ -83,6 +83,9 @@ h1 {
 }
 .haikuido-logo {
   max-width: 200px;
+}
+.purple-people-feeder-logo {
+  max-width: 300px;
 }
 footer {
   background-color: #330000;
