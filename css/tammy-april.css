@@ -77,7 +77,7 @@ h1 {
   color: #FFFFFF;
 }
 #hotel {
-  background-color: #66CCCC;
+  background: #66CCCC url('../media/images/hotel_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -122,4 +122,14 @@ footer {
 .color-palette {
   background-color: #FFFFFF;
   display: none;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #993366;
+  border-color: #993366;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #330000;
+  border-color: #330000;
 }
