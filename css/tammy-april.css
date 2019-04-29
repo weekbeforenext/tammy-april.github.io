@@ -76,6 +76,13 @@ h1 {
   background-size: cover;
   color: #FFFFFF;
 }
+#sunday {
+  background-color: #CC9999;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #hotel {
   background: #66CCCC url('../media/images/hotel_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
@@ -92,11 +99,14 @@ h1 {
   color: #FFFFFF;
 }
 #registries {
-  background-color: #CC9999;
+  background: #CC9999 url('../media/images/registries_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+#registries a {
+  color: #993366;
 }
 #rsvp {
   background: #993366;
@@ -132,4 +142,11 @@ footer {
   color: #fff;
   background-color: #330000;
   border-color: #330000;
+}
+.photo {
+  border: #FFFFFF 8px solid;
+}
+.attendee input,
+.attendee select {
+  margin: 5px;
 }
