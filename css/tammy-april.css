@@ -134,12 +134,12 @@ footer {
   display: none;
 }
 .btn-primary {
-  color: #fff;
+  color: #fff !important;
   background-color: #993366;
   border-color: #993366;
 }
 .btn-primary:hover {
-  color: #fff;
+  color: #fff !important;
   background-color: #330000;
   border-color: #330000;
 }
