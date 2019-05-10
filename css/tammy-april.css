@@ -49,8 +49,11 @@ section {
 .section-heading {
   font-size: 3rem;
 }
-[class^="col-"] {
+section [class^="col-"] {
   padding: 40px;
+}
+#app [class^="col-"] {
+  padding: 10px;
 }
 footer [class^="col-"] {
   padding: 20px;

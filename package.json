@@ -1,0 +1,31 @@
+{
+  "name": "tammyandapril.github.io",
+  "version": "1.0.0",
+  "description": "RSVP react app.",
+  "main": "index.js",
+  "author": "weekbeforenext",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weekbeforenext/tammy-april.github.io"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-multistep": "^3.6.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "rollup": "^1.10.1"
+  },
+  "scripts": {
+    "dev": "webpack --mode development ./index.js -o ./bundle.js",
+    "build": "webpack --mode production ./index.js -o ./bundle.js"
+  }
+}
