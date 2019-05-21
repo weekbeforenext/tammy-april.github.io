@@ -159,12 +159,12 @@ footer {
 }
 /* Mobile */
 .embed-responsive-3by2 {
-  padding-bottom: 218%;
+  padding-bottom: 280%;
 }
 /* Tablet */
 @media (min-width: 400px) {
   .embed-responsive-3by2 {
-    padding-bottom: 99%;
+    padding-bottom: 116%;
   }
 }
 /* Desktop */
