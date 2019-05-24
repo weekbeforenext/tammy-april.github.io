@@ -62,7 +62,7 @@ h1 {
   font-size: 4rem;
 }
 #friday {
-  background-color: #CC9999;
+  background: #CC9999 url('../media/images/friday_dinner_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,7 +77,7 @@ h1 {
   color: #FFFFFF;
 }
 #sunday {
-  background-color: #CC9999;
+  background: #CC9999 url('../media/images/sunday_brunch_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -116,7 +116,9 @@ h1 {
   background-size: cover;
   color: #FFFFFF;
 }
-.haikuido-logo {
+.haikuido-logo,
+.white-labs-logo,
+.cornerstone-logo {
   max-width: 200px;
 }
 .purple-people-feeder-logo {
