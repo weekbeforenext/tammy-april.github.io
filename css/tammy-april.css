@@ -145,6 +145,16 @@ footer {
   background-color: #330000;
   border-color: #330000;
 }
+.btn-primary-reverse {
+  color: #330000 !important;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.btn-primary-reverse:hover {
+  color: #330000 !important;
+  background-color: #CC9999;
+  border-color: #CC9999;
+}
 .photo {
   border: #FFFFFF 8px solid;
 }
