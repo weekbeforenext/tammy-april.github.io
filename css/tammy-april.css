@@ -98,6 +98,13 @@ h1 {
   background-size: cover;
   color: #FFFFFF;
 }
+#asheville {
+  background: #66CCCC url('../media/images/asheville_background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 #registries {
   background: #CC9999 url('../media/images/registries_background.jpg') no-repeat center center;
   -webkit-background-size: cover;
@@ -105,8 +112,9 @@ h1 {
   -o-background-size: cover;
   background-size: cover;
 }
-#registries a {
-  color: #993366;
+#registries a,
+#asheville a {
+  color: #336666;
 }
 #rsvp {
   background: #993366;
@@ -120,6 +128,10 @@ h1 {
 .white-labs-logo,
 .cornerstone-logo {
   max-width: 200px;
+}
+.tammy-april-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
 }
 .purple-people-feeder-logo {
   max-width: 300px;
@@ -157,6 +169,13 @@ footer {
 }
 .photo {
   border: #FFFFFF 8px solid;
+}
+.photo-credit {
+  font-size: 9px;
+  color: #CC9999;
+}
+.photo-credit a {
+  color: #CC9999;
 }
 .attendee input,
 .attendee select {
